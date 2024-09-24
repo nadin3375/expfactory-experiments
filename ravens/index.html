@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Raven's Experiment</title>
     <script src="expfactory-experiments/ravens/experiment.js"></script> <!-- JS 파일 경로 수정 -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
 </head>
 <body>
     <h1>Welcome to Raven's Progressive Matrices Experiment</h1>
@@ -47,7 +49,7 @@ var attention_check_thresh = 0.65
 var sumInstructTime = 0 //ms
 var instructTimeThresh = 0 ///in seconds
 
-var path = '/static/experiments/ravens/images/'
+var path = 'ravens/images/'
 var prefix = '<div><img src = "'
 var bottom_id = '" id="bottom_img'
 var postfix = '"</img></div>'
